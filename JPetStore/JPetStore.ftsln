@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.3.0-UFT_2021_GA
+Project("") = "JPetStore", "JPetStore\Test.tsp", "54A573FC-FA4B-4D39-92C4-84330DD41553"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = S:\PetStore\JPetStore\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		54A573FC-FA4B-4D39-92C4-84330DD41553.Debug|Any CPU.Build.0 = Debug|Any CPU
+		54A573FC-FA4B-4D39-92C4-84330DD41553.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		54A573FC-FA4B-4D39-92C4-84330DD41553.Release|Any CPU.Build.0 = Release|Any CPU
+		54A573FC-FA4B-4D39-92C4-84330DD41553.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

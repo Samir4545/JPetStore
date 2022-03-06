@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xlsx',dataFileFormat:'excel',dataFileFolder:'S:\\JPetStore\\Result\\Res2',namePairs:[]}]};

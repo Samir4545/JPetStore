@@ -1,0 +1,44 @@
+Dim jBrowser, jPage
+Set jBrowser= Browser("name:=JPetStore Demo.*")
+Set jPage=Page("title:=JPetStore Demo.*")
+URL="https://jpetstore.aspectran.com"
+SystemUtil.Run "Chrome",URL
+
+
+'SignUp For NewUser
+	SignUpLink="html id:=ClickonSignUp
+        name="acc_UserID:=Username"
+        Password="name:=passwd"
+        RepeatPassword="name:=confirmPasswd"
+
+'Personal Information
+        Name="html id:=firstname"
+        Name="html id:=lastname"
+        email="name:=Signupfmt"
+        phone="name:=PNum"
+        address1="html id:=houseno"
+        address2="html id:=area,landmark"
+        City="html id:=cityname"
+        State="html id:=statename"
+        Zip="html id:=zipcode"
+        Country="html id:=country"
+        
+'Profile Information
+        LanguagePreference="html id:=SelectLng"
+        FavouriteCategory="html id:=selectCategory"
+        EnableMyList="html id:=agreecheckbox"
+        EnableMyBanner="html id:=agreecheckbox"
+        SaveInformation="html id:=ClickonSaveinfo"
+	
+'Search Order
+		Editbox="name:=keyword","placeholder:=Product Search"
+		SearchButton="innertext:=Search"
+		IDLink="name:=K9-BD-01"
+		typelink="name:=EST-6"
+
+'Add to Cart
+		addtocart="name:=Add to Cart"
+
+	
+
+	
